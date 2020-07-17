@@ -1,0 +1,330 @@
+/* google fots */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+button:focus{
+  outline: none !important;
+}
+header{
+    height: 100vh;
+    background:url(../image/car2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+}
+.line{
+  height: 2px;
+  width: 35px;
+  background: green;
+  margin: 10px auto;
+}
+.top-menu{
+    padding-top: 30px;
+}
+.top-menu ul li a{
+        margin-left:35px;
+        font-size: 16px;
+        border-radius: 20px;
+        background: hotpink;
+        color: white !important;
+        transition: 0.5s ease-in-out;
+}
+.top-menu ul li a::before {
+  content: '';
+  width: 0px;
+  height: 2px;
+  background: yellow;
+  position: absolute;
+  bottom: 0;
+}
+.top-menu ul li a:hover {
+width: 30px;
+}
+/* .top-menu ul li a:hover{
+  color: green !important;
+  transform: scale(1.3);
+} */
+
+.navbar-brand{
+    font-size: 36px;
+    font-weight: 700;
+    color: white !important;
+}
+
+.banner-info{
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+}
+.banner-icon{
+  text-align:center;
+  margin: 150px;
+}
+.banner-icon i{
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  background: red;
+  border-radius: 50%;
+  line-height: 30px;
+  color: white;
+}
+/************************* About me *******/
+.about-me{
+  width: 100%;
+}
+.user-info{
+margin-top: 80px;
+text-align: center;
+}
+.user-info .title h1{
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.user-img{
+  margin: 40px 0;
+}
+.user-name h3{
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.user-description{
+  margin: 20 50px;
+}
+/* *************************social-icon ***************/
+.social-icon ul li{
+  list-style: none;
+  display: inline-block;
+}
+.social-icon ul li a i{
+  height: 32px;
+  width: 32px;
+  color: white;
+  text-align: center;
+  background: #c7c7c7;
+  line-height: 32px;
+  margin: 15px;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+}
+.social-icon ul li a i:hover{
+  background: #fff222;
+  transition: 0.4s ease-in-out;
+}
+.contact-us{
+  margin: 10px 0;
+}
+.btn-contact{
+  padding: 10px 30px;
+  border: 2px solid #51a151;
+  border-radius: 5px;
+  background: transparent;
+  letter-spacing: 2px;
+}
+
+
+/********************** suggest me ******************************/
+.suggest-me{
+  width: 100%;
+  background: url(../image/car2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.what-i-say{
+  text-align: center;
+  margin: 80px 0;
+}
+.what-i-say h1{
+color: white;
+font-size: 32px;
+font-weight: 400;
+padding: 6px;
+text-transform: uppercase;
+}
+.suggest-icon{
+  margin: 80px 0 140px 0;
+}
+
+.suggest-icon a i{
+  color: white;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  background: #ffb223;
+  border-radius:50%;
+  text-align: center;
+  line-height: 65px;
+  transition: 0.4s ease-in-out;
+}
+
+.suggest-icon a i:hover{
+  border: 2px solid white;
+  transition: 0.4s ease-in-out;
+}
+
+.suggest-icon h6{
+font-size: 18px;
+color: white;
+margin: 10px 0;
+letter-spacing: 1px;
+}
+
+
+
+/********************** suggest me  end *******************/
+
+/********************** counter start * ******************/
+.project-counter{
+  width: 100%;
+  background: #616161;
+}
+.project-counter .row{
+  padding: 150px 0;
+}
+.inner-count h1{
+font-size: 45px;
+font-weight: 700;
+color#444444;
+}
+.inner-count .col-md-3{
+  text-align: center;
+}
+.inner-count h5{
+font-size: 20px;
+font-style: italic;
+}
+
+
+/********************** counter end * ******************/
+/* ****************portfolio start************** */
+.portfolio{
+  width: 100%;
+}
+.content{
+margin: 70px 0px 40px 0px;
+font-size:32px;
+text-align: center;
+}
+.title h1{
+color: white;
+font-size: 32px;
+font-weight: 400;
+padding: 6px;
+text-transform: uppercase;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.isotop-menu{
+  margin: 50px 0;
+}
+.isotop-menu ul li{
+list-style: none;
+display: inline-block;
+}
+.isotop-menu ul li a{
+color: #525252;
+margin: 0 20px;
+}
+
+.gallery{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.gallery .item1{
+  justify-content: flex-start;
+}
+.gallery .item2{
+  justify-content: center;
+}
+.gallery .item3{
+  justify-content: flex-end;
+}
+.gallery img{
+  margin-bottom: 0 20px 2px 0;
+}
+.img-1{
+position: relative;
+}
+
+.shadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  bottom: 20px;
+  background: rgba(0,0,0,0.5);
+  display: none;
+}
+.img-1:hover .shadow{
+display: block;
+}
+
+.shadow-content{
+padding: 80px;
+text-align: left;
+}
+.shadow-content .line{
+margin: 0;
+margin: 15px 0;
+background: #1ab392;
+}
+.shadow-content h1{
+  font-size: 24px;
+  font-weight: 400;
+  color: #1ab392;
+  letter-spacing: 2px;
+}
+.shadow-content p{
+  margin: 30px 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+}
+.shadow-content .icon a i{
+height: 40px;
+width: 40px;
+color: #898983;
+font-size: 20px;
+border: 2px solid pink;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+}
+.portfolio-button{
+  text-align: center;
+}
+.portfolio-button button{
+  box-shadow: 0 8px 5px #51a351 !important;
+}
+
+
+.portfolio-btn .btn-primary{
+background: #51a351 !important;
+color: #fff;
+border-color: #51a351 !important;
+
+.btn-lg{
+  padding: .5rem 2.5rem !important;
+}
+.testiomonial{
+  width: 100%;
+  text-align: center;
+}
+.testiomonial .content{
+  margin: 80px 0 ;
+}
